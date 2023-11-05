@@ -198,11 +198,14 @@ i{
     transform: scale(1.1);
 }
 /* ------------------------------------service--------------- */
-#services{
-    padding: 50px 50px;
-    color:#2b182c;
+#jusbig{
     background-color: #ffcf9e;
     border-bottom: 5px solid #2b182c;
+}
+.services{
+    padding: 50px 50px;
+    color:#2b182c;
+   
 }
 #ser{
     font-size: 80px;
