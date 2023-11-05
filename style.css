@@ -41,14 +41,14 @@ nav{
     flex-wrap: wrap;
 }
 .logo{
-    width:100px;
+    width:50px;
     height: 10%;
     font-weight: bold;
     /* font-size: 40px; */
 
 }
 nav h2{
-    font-size: 20px;
+    font-size: 18px;
 }
 .lo span{
     color: #ffaf6a;
@@ -56,14 +56,14 @@ nav h2{
 nav ul li{
     display: inline-block;
     list-style: none ;
-    margin: 10px 20px;
+    margin: 5px 2px;
 }
 nav ul li a{
     color:#ffff;
     text-decoration: none;
     font-size: 18px;
     position: relative;
-    padding: 8px 17px;
+    padding: 5px 14px;
     border-radius: 20px;
     transition: background 0.6s;
     
@@ -99,7 +99,7 @@ nav ul li a:hover{
     padding: 50px 50px;
     color:#2b182c;
     background-color: #ffcf9e;
-    border-bottom:5px solid #2b182c;
+    border-bottom:4px solid #2b182c;
 }
 .row{
     display: flex;
@@ -199,6 +199,7 @@ i{
 }
 /* ------------------------------------service--------------- */
 #jusbig{
+    
     background-color: #ffcf9e;
     border-bottom: 5px solid #2b182c;
 }
@@ -209,8 +210,7 @@ i{
 }
 #ser{
     font-size: 80px;
-    margin-left: 35%;
-    margin-top: -2%;
+    margin-left: 25%;
     margin-bottom: 2%;
 }
 .rowser{
@@ -264,4 +264,74 @@ i{
 }
 #lastbutt{
     margin-left:  45%;
+}
+
+
+nav .fa-solid{
+    display: none;
+}
+@media only screen and (max-width:600px){
+    #header{
+        background-image: url("images/2206.i518.016.S.m005.c13.mountains\ sunset.jpg");
+    }
+    .header-text{
+        margin-top: 13%;
+        font-size: 16px;
+    }
+    .header-text h1{
+        font-size: 30px;
+    }
+    nav .fa-solid{
+        display: block;
+        font-size: 25px;
+    }
+    nav ul{
+        background: #2b182c ;
+        /* background: rgba(248, 99, 0, 0.999); */
+        border-left: 2px solid #ffaf6a;
+        /* border: 2px solid rgba(248, 99, 0, 0.999); */
+        position: fixed;
+        top:0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li {
+        display: block;
+        margin:25px;
+    }
+    nav ul .fa-solid{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    .subtitle{
+        font-size: 40px;
+    }
+    .about-col-1,.about-col-2,.ser-col-1,.ser-col-2,.c-col-1,.c-col-2{
+        flex-basis:100%;
+    }
+    .about-col-1,.c-col-1,.ser-col-2{
+        margin-bottom: 30px;
+    }
+    .about-col-2,.c-col-2,.ser-col-1{
+        font-size: 14px;
+    }
+    
+    .tab-links{
+        font-size: 16px;
+        margin-right: 20px;
+    }
+    #ser,#ser{
+        font-size: 40px;
+        /* margin-left: 25%;
+        margin-bottom: 2%; */
+    }
+    #lastbutt{
+        margin-left: 0;
+    }
 }
